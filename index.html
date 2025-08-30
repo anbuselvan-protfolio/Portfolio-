@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+https://codepen.io/zlxtxftt-the-looper/pen/OPyobdb<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>anbu selvan  | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 class="logo">anbu selvan </h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Hi, I'm <span class="highlight">anbu selvan </span></h2>
+    <p class="tagline">A <span id="role"></span></p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer who enjoys building clean, user-friendly, and interactive web applications. </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">HTML <span>95%</span></div>
+      <div class="skill-card">CSS <span>90%</span></div>
+      <div class="skill-card">JavaScript <span>80%</span></div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>an addiction breaking site</h3>
+      <p>A responsive learning system to brek addiction built with HTML, CSS, and JavaScript.</p>
+      <a href="https://codepen.io/zlxtxftt-the-looper/pen/OPyobdb" 
+
+   target="_blank" 
+
+   class="view-btn">
+
+   View Details
+
+</a>
+    </div>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeProject()">&times;</span>
+        <h3>Portfolio Website</h3>
+        <p>This is a simple yet elegant personal portfolio that demonstrates clean design and interactivity using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Praveen |anbu selvan </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
